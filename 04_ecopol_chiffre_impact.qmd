@@ -1,0 +1,17 @@
+---
+title: "Economie politique du chiffre et de la mesure du développement durable"
+subtitle: "Introduction et pespective globale"
+author: "Florent Bédécarrats"
+institute: "IRD/UMI SOURCE"
+format: 
+  revealjs:
+    self-contained: true
+editor: visual
+---
+
+## Plan de la séance
+
+- Exposé d'étudiants (20 minutes) + discussion (10 minutes). Article à déterminer : Bédécarrats, Guérin et Roubaud sur l'écopol des RCT ?
+- Etat des méthodes : expérimental vs. quasi expérimental. Et le quali dans tout ça ?
+- Implications pour la mesure : débats sur l'évaluation des politiques de développement.
+- Focus théorique sur la sociologie des controverses et l'evidence based policy

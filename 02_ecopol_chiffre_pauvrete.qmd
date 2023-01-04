@@ -1,0 +1,19 @@
+---
+title: "Economie politique du chiffre et de la mesure du développement durable"
+subtitle: "Introduction et pespective globale"
+author: "Florent Bédécarrats"
+institute: "IRD/UMI SOURCE"
+format: 
+  revealjs:
+    self-contained: true
+editor: visual
+---
+
+## Plan de la séance
+
+-   Exposé d'étudiants (20 minutes) + discussion (10 minutes). Article à déterminer : Martin Ravallion sur les comparaisons inter/intra nationales de pauvreté (en anglais, plus quanti) ou Boris Samuel sur le Maroc (en français, plus quali).
+
+-   Présentation des méthodes : approches basées sur les dépenses (LSMS), approches basées sur les actifs (DHS, MICS...), nouvelles méthodes (scores de propension, satellitaires...) Débats sur les implications de ces méthodes : lignes nationales ou internationales, utilisation pour le ciblage des politiques publiques, les "invisibles" de ces approches (nomades, inégalités intra-ménages...).
+
+-   Focus théorique sur l'usage politique des mesures statistiques : de dérosières aux quantification studies.
+

@@ -1,0 +1,18 @@
+---
+title: "Economie politique du chiffre et de la mesure du développement durable"
+subtitle: "Introduction et pespective globale"
+author: "Florent Bédécarrats"
+institute: "IRD/UMI SOURCE"
+format: 
+  revealjs:
+    self-contained: true
+editor: visual
+---
+
+## Plan de la séance
+
+-   Exposé d'étudiants (20 minutes) + discussion (10 minutes). Article à déterminer : un papier qui mettrait bien en relation (de manière critique) les dynamiques de comptabilité biodiv et les débats sur les paiements pour services environnementaux.
+-   Etat des méthodes : classification de l'usage des sols, modélisations GBIF, ENCA.
+-   Implications : pour la mesure : cf. débats récents sur la prise en compte de la biodiversité par les banques centrales.
+-   Focus théorique sur la création de normes : communautés épistémiques (Jasanov) versus entrepreneurs de normes (Finnemore).
+

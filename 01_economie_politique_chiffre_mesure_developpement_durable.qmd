@@ -1,0 +1,31 @@
+---
+title: "Economie politique du chiffre et de la mesure du développement durable"
+subtitle: "Introduction et pespective globale"
+author: "Florent Bédécarrats"
+institute: "IRD/UMI SOURCE"
+format: 
+  revealjs:
+    self-contained: true
+editor: visual
+---
+
+## Plan de la séance
+
+-   Présentation des systèmes statistiques existants dans les pays en développement : enquêtes et recensements par les INS ou autres, données de fonctionnement des administrations et opérateurs, nouvelles sources de données satellitaires et contributives ;
+
+-   Tour d'horizon sur la mobilisation pratique de ces données : où trouver ces données, comment les obtenir, comment on les traite, précautions d'interprétation et de citation ;
+
+-   Ouverture sur la réflexion critique autour de la production de ces données et annonce de la méthodo pour les séances suivantes.
+
+# La donnée : de quoi parle-t-on ?
+
+# Systèmes statistiques
+
+Quels sont selon vous les grands types d'instances qui composent un système statistique national ?
+
+::: incremental
+-   INS: instituts nationaux de statistique
+-   IGN : instituts géographiques nationaux
+:::
+
+## INS
