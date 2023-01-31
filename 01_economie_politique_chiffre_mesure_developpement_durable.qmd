@@ -7,25 +7,285 @@ format:
   revealjs:
     self-contained: true
 editor: visual
+engine: knitr
+bibliography: references.bib
 ---
+
+```{css echo=FALSE}
+.center_column {
+text-align: center;
+}
+.right_column {
+text-align: right;
+}
+```
+
+## Objectifs du cours
+
+Deux parties complémentaires :
+
+::: columns
+::: column
+#### Sessions culture et bases sur la donnée
+
+-   Que sont les données ?\
+-   Comment les produire ?\
+-   Comment les traiter ?
+:::
+
+::: column
+#### Sessions sur l'utilisation critique des données
+
+-   Où obtenir des données existantes ?\
+-   Comment sont-elles produites ?\
+-   Garder une distance critique
+:::
+:::
+
+## Une partie en 4 séances
+
+-   Session d'introduction et bases théoriques\
+-   3 sessions thématiques :
+    -   mesure de la pauvreté
+    -   quantificationn de la biodiversité ;
+    -   évaluation d'impact.
+
+## Evaluation : 1 exposé collectif par session
+
+-   20 minutes de présentation, 10 minutes de questions ;
+-   2 articles fournis, 4-6 références complémentaires à trouver ;
+-   Montrer que :
+    -   vous avez compris les modalités techniques de mesure ;
+    -   vous en saissez les enjeux politiques et stratégiques ;
+    -   vous discernez les positions de certains acteurs sur la question;
+    -   vous restituez ça de manière claire et concise.
 
 ## Plan de la séance
 
--   Présentation des systèmes statistiques existants dans les pays en développement : enquêtes et recensements par les INS ou autres, données de fonctionnement des administrations et opérateurs, nouvelles sources de données satellitaires et contributives ;
+Quelles données ?
 
--   Tour d'horizon sur la mobilisation pratique de ces données : où trouver ces données, comment les obtenir, comment on les traite, précautions d'interprétation et de citation ;
+-   Systèmes statistiques dans les pays en développement : typologies
+-   Trouver, obtenir, traiter et interpréter les données ;
 
--   Ouverture sur la réflexion critique autour de la production de ces données et annonce de la méthodo pour les séances suivantes.
+Critique des données
 
-# La donnée : de quoi parle-t-on ?
+-   Fondements théoriques sur la fabrique des données ;
+-   Organisation des prochaines séances.
 
-# Systèmes statistiques
+# Les données du développement
+
+Qui produit les données sur les pays en développement ?
+
+## Principaux producteurs
+
+Une idée préconçue à remettre en causes :
+
+-   Institutions internationales, les sources les plus sur-estimées :
+    -   enquêtes d'expert, p. ex. Banque mondiale sur les institutions [WGI](www.govindicators.org), CPIA, Doing Business...
+    -   surtout, compilations de données issues des systèmes nationaux.\
+-   Systèmes statistiques nationaux, les sources plus sous-estimés ;\
+-   Autres sources "contributives", à croiser (voir après).
+
+## Système national
 
 Quels sont selon vous les grands types d'instances qui composent un système statistique national ?
 
 ::: incremental
--   INS: instituts nationaux de statistique
--   IGN : instituts géographiques nationaux
+-   INS: instituts nationaux de statistique\
+-   IGN : instituts géographiques nationaux\
+-   Systèmes d'information :
+    -   Ministères, collectivités locales;\
+    -   Opérateurs privés de services publics;\
+    -   Thématiques (Museums, météo...).\
 :::
 
-## INS
+## Typologie des données produites par les systèmes statistiques nationaux {.smaller}
+
+::: {.fragment .fade-in}
+-   Enquêtes
+
+    -   Ménages : niveau et conditions de vie, emploi, informel
+    -   Entreprises
+    -   Etablissements publics (santé, écoles...)
+
+-   Recensements
+
+    -   Population et habitat
+    -   Agricoles
+
+-   Données administratives
+
+-   Capteurs
+:::
+
+## Où trouver ces données ? {.smaller}
+
+-   **Catalogues internationaux**
+
+    -   International Household Survey Network : <http://ihsn.org>
+    -   Integrated Public Use Microdata Series : [www.ipums.org](https://www.ipums.org)
+    -   World Bank microdata catalog : <https://microdata.worldbank.org>
+
+-   **Catalogues par famille d'enquête**
+
+    -   Demographic & Health Surveys : [www.dhsprogram.com](https://www.dhsprogram.com)
+    -   Multiple indicator cluster surveys : <https://mics.unicef.org>
+    -   Living standard measurement survey : [www.worldbank.org/LSMS](https://www.worldbank.org/LSMS)
+
+-   **Sites nationaux**
+
+    -   INS : propres à chaque pays
+    -   Ministères : *idem*
+
+## Sources d'institutions internationales {.smaller}
+
+-   Indicateurs issus des systèmes nationaux
+
+    -   World Bank: WDI, SCI, Dette... <https://databank.worldbank.org/databases>
+    -   Portails de données des agence des nations unies :[PNUD](https://hdr.undp.org/data-center), [FAO](https://www.fao.org/faostat), [UNICEF](https://data.unicef.org/resources/resource-type/datasets/), [BIT](https://ilostat.ilo.org/)...
+
+-   Enquêtes internationales
+
+    -   Banque mondiale : [Global Findex](https://www.worldbank.org/en/publication/globalfindex), Doing business...
+    -   Enquêtes de tiers : [Afrobarometer](https://www.afrobarometer.org/)/[Latinobarómetro](https://www.latinobarometro.org/)/etc.
+
+-   Plateformes internationales d'échanges
+
+    -   Humanitarian Data Exchange : <https://data.humdata.org/>
+
+## Autres sources {.smaller}
+
+-   Données satellitaires "brutes"
+
+    -   [Copernicus global land service](https://land.copernicus.eu/global/products/)
+    -   NASA: <https://earthexplorer.usgs.gov>
+    -   [JAXA](https://earth.jaxa.jp/en/data/products/index.html), Chine...
+
+-   Produits dérivés de données satellitaires (exemples)
+
+    -   [Global forest watch](https://www.globalforestwatch.org/), [Global Mangrove watch](https://www.globalforestwatch.org/), [Croplands](https://www.usgs.gov/apps/croplands/app/map?lat=0&lng=0&zoom=2)
+    -   [Worldpop](https://www.worldpop.org/)
+    -   Bâtiments: [Open Buildings](https://sites.research.google/open-buildings/) (Google), [Building footprint](https://blogs.bing.com/maps/2022-01/New-and-updated-Building-Footprints) (Microsoft) ; Routes (lien OSM)
+
+-   Données contributives ([OpenStreetMap](https://www.openstreetmap.org/export), [ACLED](https://acleddata.com/), [GBIF](https://www.gbif.org/), [Land Matrix](https://landmatrix.org/...))\
+
+-   Travaux scientifiques: accessibilité [@nelson2019], conflits [@svensson2022]...\
+
+-   Web, Réseaux sociaux
+
+## Obtention et traitement de ces données
+
+::: incremental
+-   Accès libre ou non (FAIR-O/FAIR)
+-   Accès restreint/données sensibles : gestion rigoureuse
+-   Besoin de logiciels statistiques dédiés (R, python, Stata)
+-   Attention à la reproductibilité des analyses
+-   Publications citant les sources
+-   Mises en garde/recul (cf. suite)
+:::
+
+# Entretenir une distance critique à sa donnée
+
+## Quels enjeux ? {.smaller}
+
+::: {.right_column .fragment .fade-in}
+> "*There are three kind of lies: lies, damned lies and statistics*".\
+> Benjamin Disraeli (selon Mark Twain)
+>
+> "*Lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure*" (Charles Goodhart) "*Garbage in, garbage out*" (Dicton statistique)
+:::
+
+::: incremental
+-   Qualité
+-   Aide à la décision
+-   Fabrique sociale
+-   Manipulation politique
+-   Crédibilité
+-   Imposition normatives
+:::
+
+## Critères de qualité
+
+::: columns
+::: column
+::: incremental
+-   Complétude
+-   Promptitude
+-   Exactitude
+-   Cohérence
+:::
+:::
+
+::: column
+::: incremental
+-   Stabilité
+-   Standardisation
+-   Documentation
+-   Accessibilité
+:::
+:::
+:::
+
+::: {.fragment .fade-in}
+Exemple bien documenté sur les données de scolarisation [@fichtner2016; @sandefur2014]:
+
+La pauvreté des chiffres en Afrique [@jerven2013]
+:::
+
+## Repères théoriques {.smaller}
+
+-   Approche néo-instituionnelle, les 3 "i" [@hall1996; @palier2005] : idées, intérêts et institutions
+
+-   Analyse de la gouvernance par ses instruments [@lavignedelville2020] : Les outils de l'action publique sont à la fois des objets techniques et des dispositifs sociaux qui organisent les rapports entre les acteurs et leur donnent du sens. Relative autonomie et effets propres.
+
+-   Socio-histoire de la statistique : Alain Desrosières Sociologie de la quantification [@desrosières1993], Boris Samuel [@samuel2011], : construction de l'Etat et de sa relation à la société à travers la statistique.
+
+-   Socioéconomie de la quantification, Isabelle Bruno, Florence Jany-Catrice et Béatrice Touchelay [@thesoci2018], Olivier Martin [@martin2020]:
+
+    -   Analyser l'apparente neutralité et force de persuation des chiffres,
+
+    -   Décrire leurs différentes dimensions : convention sociale, dispositif technique et levier de pouvoir
+
+    -   Etudier leurs propriétés : coordination, hiérarchisation, invisibilisation et domination
+
+## Séances suivantes : exposés {.smaller}
+
+Questions de mesure :
+
+-   Qu'est-ce qu'on compte (définitions) et comment (méthodes)
+-   Quelles controverses techniques sur la mesure ?
+-   Quels enjeux derrières ces controverses ?
+-   Quelles positions des acteurs ?
+
+Présentatoin :
+
+-   Un diaporama, tous les participants participent à la présentation
+
+-   Points d'attention :
+
+    -   Répondre aux questions
+    -   Structure claire
+    -   Références
+    -   Questions/discussion
+
+## Prochaine séances {.smaller}
+
+-   Mesure de la pauvreté :
+
+    -   Martin Ravallion [-@ravallion2020], "On Measuring Global Poverty"
+
+    -   Boris Samuel [-@samuel2022] "Les enquêtes sociales et l'identification des bénéficiaires dans la mise en place d'une protection sociale au Maroc"
+
+-   Mesure de la biodiversité
+
+    -   Adrien Compte et al. [-@comte2022] "Ecosystem accounting: Past scientific developments and future challenges"
+
+    -   Jean-Louis Weber [-@weber2022] "L'émergence d'une comptabilité écosystémique".
+
+-   Evaluation d'impact
+
+    -   Angrist & Pischke [-@angrist2010] "The Credibility Revolution in Empirical Economics: How Better Research Design Is Taking the Con out of Econometrics"
+
+    -   F. Bédécarrats, I. Guérin et F. Roubaud [-@bédécarrats2017] "L'étalon-or des évaluations Randomisées : du discours de la méthode à l'économie politique"
+
+## Références
