@@ -6,6 +6,7 @@ institute: "IRD/UMI SOURCE"
 format: 
   revealjs:
     self-contained: true
+    output-file: index.html
 editor: visual
 engine: knitr
 bibliography: references.bib
