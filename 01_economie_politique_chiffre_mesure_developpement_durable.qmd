@@ -185,7 +185,7 @@ Quels sont selon vous les grands types d'instances qui composent un système sta
 -   Mises en garde/recul (cf. suite)
 :::
 
-# Entretenir une distance critique à sa donnée
+# Entretenir une distance critique à l'égard des données
 
 ## Quels enjeux ? {.smaller}
 
