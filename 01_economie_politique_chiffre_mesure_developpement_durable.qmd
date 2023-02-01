@@ -27,7 +27,7 @@ Deux parties complémentaires :
 
 ::: columns
 ::: column
-#### Sessions culture et bases sur la donnée
+#### Sessions culture et bases sur les données
 
 -   Que sont les données ?\
 -   Comment les produire ?\
@@ -39,7 +39,7 @@ Deux parties complémentaires :
 
 -   Où obtenir des données existantes ?\
 -   Comment sont-elles produites ?\
--   Garder une distance critique
+-   Entretenir un recul critique à leur égard
 :::
 :::
 
@@ -47,8 +47,8 @@ Deux parties complémentaires :
 
 -   Session d'introduction et bases théoriques\
 -   3 sessions thématiques :
-    -   mesure de la pauvreté
-    -   quantificationn de la biodiversité ;
+    -   mesure de la pauvreté ;
+    -   quantification de la biodiversité ;
     -   évaluation d'impact.
 
 ## Evaluation : 1 exposé collectif par session
@@ -172,7 +172,7 @@ Quels sont selon vous les grands types d'instances qui composent un système sta
 
 -   Travaux scientifiques: accessibilité [@nelson2019], conflits [@svensson2022]...\
 
--   Web, Réseaux sociaux
+-   Web, réseaux sociaux, données téléphoniques
 
 ## Obtention et traitement de ces données
 
