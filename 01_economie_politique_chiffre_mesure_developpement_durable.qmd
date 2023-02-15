@@ -3,6 +3,7 @@ title: "Economie politique du chiffre et de la mesure du développement durable"
 subtitle: "Introduction et pespective globale"
 author: "Florent Bédécarrats"
 institute: "IRD/UMI SOURCE"
+footer: <https://fbedecarrats.github.io/class_polecon_of_numbers_fr>
 format: 
   revealjs:
     self-contained: true
@@ -12,6 +13,8 @@ engine: knitr
 bibliography: references.bib
 ---
 
+## Objectifs du cours
+
 ```{css echo=FALSE}
 .center_column {
 text-align: center;
@@ -20,8 +23,6 @@ text-align: center;
 text-align: right;
 }
 ```
-
-## Objectifs du cours
 
 Deux parties complémentaires :
 
@@ -51,22 +52,24 @@ Deux parties complémentaires :
     -   quantification de la biodiversité ;
     -   évaluation d'impact.
 
-## Evaluation : 1 exposé collectif par session
+## Evaluation {.smaller}
+
+### Un exposé collectif par session
 
 -   20 minutes de présentation, 10 minutes de questions ;
 -   2 articles fournis, 4-6 références complémentaires à trouver ;
 -   Montrer que :
     -   vous avez compris les modalités techniques de mesure ;
     -   vous en saissez les enjeux politiques et stratégiques ;
-    -   vous discernez les positions de certains acteurs sur la question;
+    -   vous discernez les positions de certains acteurs sur la question ;
     -   vous restituez ça de manière claire et concise.
 
 ## Plan de la séance
 
 Quelles données ?
 
--   Systèmes statistiques dans les pays en développement : typologies
--   Trouver, obtenir, traiter et interpréter les données ;
+-   Systèmes statistiques dans les pays en développement : typologies ;
+-   Trouver, obtenir, traiter et interpréter les données.
 
 Critique des données
 
@@ -95,8 +98,8 @@ Quels sont selon vous les grands types d'instances qui composent un système sta
 -   INS: instituts nationaux de statistique\
 -   IGN : instituts géographiques nationaux\
 -   Systèmes d'information :
-    -   Ministères, collectivités locales;\
-    -   Opérateurs privés de services publics;\
+    -   Ministères, collectivités locales ;\
+    -   Opérateurs privés de services publics ;\
     -   Thématiques (Museums, météo...).\
 :::
 
@@ -105,14 +108,14 @@ Quels sont selon vous les grands types d'instances qui composent un système sta
 ::: {.fragment .fade-in}
 -   Enquêtes
 
-    -   Ménages : niveau et conditions de vie, emploi, informel
-    -   Entreprises
+    -   Ménages : niveau et conditions de vie, emploi, informel ;
+    -   Entreprises ;
     -   Etablissements publics (santé, écoles...)
 
 -   Recensements
 
-    -   Population et habitat
-    -   Agricoles
+    -   Population et habitat ;
+    -   Agricoles.
 
 -   Données administratives
 
@@ -177,12 +180,12 @@ Quels sont selon vous les grands types d'instances qui composent un système sta
 ## Obtention et traitement de ces données
 
 ::: incremental
--   Accès libre ou non (FAIR-O/FAIR)
--   Accès restreint/données sensibles : gestion rigoureuse
--   Besoin de logiciels statistiques dédiés (R, python, Stata)
--   Attention à la reproductibilité des analyses
--   Publications citant les sources
--   Mises en garde/recul (cf. suite)
+-   Accès libre ou non (FAIR-O/FAIR) ;
+-   Accès restreint/données sensibles : gestion rigoureuse ;
+-   Besoin de logiciels statistiques dédiés (R, python, Stata) ;
+-   Attention à la reproductibilité des analyses ;
+-   Publications citant les sources ;
+-   Mises en garde/recul (cf. suite).
 :::
 
 # Entretenir une distance critique à l'égard des données
@@ -237,7 +240,7 @@ La pauvreté des chiffres en Afrique [@jerven2013]
 
 -   Approche néo-instituionnelle, les 3 "i" [@hall1996; @palier2005] : idées, intérêts et institutions
 
--   Analyse de la gouvernance par ses instruments [@lavignedelville2020] : Les outils de l'action publique sont à la fois des objets techniques et des dispositifs sociaux qui organisent les rapports entre les acteurs et leur donnent du sens. Relative autonomie et effets propres.
+-   Gouvernance par ses instruments [@lavignedelville2020] : Les outils de l'action publique sont à la fois des objets techniques et des dispositifs sociaux qui organisent les rapports entre les acteurs et leur donnent du sens. Relative autonomie et effets propres.
 
 -   Socio-histoire de la statistique : Alain Desrosières Sociologie de la quantification [@desrosières1993], Boris Samuel [@samuel2011], : construction de l'Etat et de sa relation à la société à travers la statistique.
 
