@@ -17,3 +17,79 @@ editor: visual
 
 -   Focus théorique sur l'usage politique des mesures statistiques : de dérosières aux quantification studies.
 
+
+## Questions de méthode
+
+-   Les articles scientifique, différences et points communs
+
+    -   Différence franco-anglosaxon
+
+    -   Différences quanti-quali
+
+    -   Points communs; biblio, structure
+
+Lien avec la déclaration des droits de l'homme de 46 (~plan marshall)
+Autres approches de l'estimation des conditions de vie.
+
+# La pauvreté et sa mesure
+
+- Définition
+
+> Situation d'infériorité matérielle par rapport aux individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches.
+
+-> Commentez
+
+::: {.fade-in}
+- Importance de la pauvreté
+    
+    - dans les sociétés traditionnelles: conception très influencée par les religions ; 
+    - question sociale au XIX° siècle ;
+    - essor après WW2 (DUDH de 1948).
+:::
+
+## Comment définit-on la pauvreté ?
+- absolue vs. relative
+- par les revenus (ou leur approximation) vs multidimentionnelle
+
+## Comment mesure-t-on la pauvreté
+- Par les registres administratifs (déclarations fiscales)
+- Par les enquêtes ?
+- Par des proxies
+
+
+
+IDH
+
+PPI
+
+
+    Introduction
+        Define poverty and its measurement
+        Discuss why poverty measurement is important in political economy
+
+    Different Approaches to Poverty Measurement
+        Absolute vs. Relative poverty
+        Income vs. Multidimensional poverty
+        Theoretical and conceptual frameworks (e.g. Capability Approach, Social Exclusion Approach)
+
+    Poverty Lines and Thresholds
+        What are poverty lines and thresholds?
+        How are they determined?
+        Criticisms and challenges
+
+    Official Poverty Measures
+        Discuss how poverty is measured by official government agencies (e.g. World Bank, UN, national statistical agencies)
+        Limitations and critiques of official poverty measures
+
+    Alternative Measures of Poverty
+        Describe alternative measures of poverty (e.g. the Multidimensional Poverty Index, the Human Development Index)
+        Compare and contrast with official measures
+
+    Politics of Poverty Measurement
+        How poverty measurement is influenced by political and economic factors
+        How poverty data is used in policy-making and political discourse
+        Criticisms and challenges to political influence on poverty measurement
+
+    Conclusion
+        Summarize key points and takeaways
+        Discuss future directions for poverty measurement and political economy
