@@ -1,19 +1,175 @@
 ---
 title: "Economie politique du chiffre et de la mesure du développement durable"
-subtitle: "Introduction et pespective globale"
+subtitle: "Mesure de la pauvreté"
 author: "Florent Bédécarrats"
 institute: "IRD/UMI SOURCE"
 format: 
   revealjs:
     self-contained: true
 editor: visual
+bibliography: references.bib
 ---
 
 ## Plan de la séance
 
--   Exposé d'étudiants (20 minutes) + discussion (10 minutes). Article à déterminer : Martin Ravallion sur les comparaisons inter/intra nationales de pauvreté (en anglais, plus quanti) ou Boris Samuel sur le Maroc (en français, plus quali).
+-   Exposé d'étudiants (20 min.) + discussion (10 min.), basés notamment sur Ravallion [-@ravallion2020] et Samuel [-@samuel2022].
 
--   Présentation des méthodes : approches basées sur les dépenses (LSMS), approches basées sur les actifs (DHS, MICS...), nouvelles méthodes (scores de propension, satellitaires...) Débats sur les implications de ces méthodes : lignes nationales ou internationales, utilisation pour le ciblage des politiques publiques, les "invisibles" de ces approches (nomades, inégalités intra-ménages...).
+-   Définition économique de la pauvreté
 
--   Focus théorique sur l'usage politique des mesures statistiques : de dérosières aux quantification studies.
+-   Enjeux sociaux, théoriques et politiques de la pauvreté
 
+-   Controverses sur la mesure et enjeux
+
+-   Etude de cas : proxy mean tests, microfinance, transferts sociaux et satellitaire
+
+## Questions de méthode
+
+-   Les articles scientifique, différences et points communs
+
+    -   Différence franco-anglosaxon
+
+    -   Différences quanti-quali
+
+    -   Points communs; biblio, structure
+
+# Comment définit-on la pauvreté ?
+
+## Définition large, peu technique
+
+> Situation de manque de ressources individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches." (Colombi, 2021)
+
+-   Commentez
+
+::: incremental
+-   absolue *vs*. relative;
+-   par les revenus (ou leur approximation) *vs*. multidimentionnelle (y.c. socialement construite).
+:::
+
+## Pourquoi la mesure de la pauvreté est-elle importante pour l'économie politique ?
+
+::: incremental
+-   Inégalités : Enjeu de justice (Principes de Rawls, cf. après) et fondement du contrat social
+-   Axe important (en principe ou en pratique) de l'action publique
+-   La manière dont on définit et mesure est socialement et politiquement contruite
+:::
+
+## Une conception qui a évolué dans le temps
+
+-   dans les sociétés traditionnelles: conception très influencée par les religions ;
+-   question sociale au XIX° siècle ;
+-   essor après WW2 (DUDH de 1948) ;
+-   point focal de l'aide au développement à partir des 1990s.
+
+## Une mesure qui a également évolué
+
+-   Dires de notables =\> enquêtes
+-   Spécificités nationale =\> standardisation internationale
+-   Revenus =\> Dépenses
+-   Multidimensionnelle
+-   Méthodes participatives
+-   Big data (scoring, croisements administratifs, satellitaire)
+
+## Cadre théoriques sur la pauvreté (points de repères)
+
+Très brièvement [@davis2015] :
+
+-   Théorie classique: responsabilité individuelle de la pauvreté, horizon ;
+
+-   Néoclassiques: optimum de pareto, dynamique des failles du marché;
+
+-   Keyneisiens, approche par le chômage, rôle dans la relance, notion de biens publics;
+
+-   Marxistes : pas de réduction de pauvreté durable par la croissance, lutte des classes.
+
+## Principaux auteurs
+
+-   Rawls : principes de justice: 1. égale liberté, 2.a différences doivent profiter aux plus désavantégés, 2.b égalité des chances.
+
+-   Sen : capabilités et inégalités.
+
+-   Atkinson : exclusion sociale
+
+-   Deaton : mesure de la société, consommation et bien-être.
+
+-   Ravallion : mesure de la pauvreté et interprétation.
+
+## Quelles sont les sources utilisées pour mesurer la pauvreté
+
+-   Par les registres administratifs (déclarations fiscales)
+-   Par les enquêtes statistiques: approches basées sur les dépenses (LSMS), approches basées sur les actifs (DHS, MICS...),
+-   Par des approches qualitatives et participatives: particpatory wealth ranking...
+-   Par des proxies : qualité du logement, consommation de biens essentiels, proxy means tests, machine learning.
+
+## Dispositifs méthodologiques
+
+Echantillonage aréolaire pour compenser la faiblesse des recensements
+
+Des revenus aux dépenses
+
+L'ingénierie des questionnaires
+
+Voir les dessins de [Marc Roesch](https://marc-roesch.pagesperso-orange.fr/enquetes/enquete-1.html).
+
+Voir aussi les réflexions, cf. notamment AMIRA [@doligez2016; @charmes2006; @rousset2020].
+
+## Enjeux autour de la mesure
+
+Différents indices de dispersion: Gini, Theil, Atkinson, Pareto, Hoover...
+
+Indicateurs alternatifs: MDPI, HDI...
+
+Approches participatives
+
+nouvelles méthodes (scores de propension, satellitaires...) Débats sur les implications de ces méthodes : lignes nationales ou internationales, utilisation pour le ciblage des politiques publiques, les "invisibles" de ces approches (nomades, inégalités intra-ménages...).
+
+## "Carrière" des résultats
+
+Perception sociale détarminé par les rapports entre Etat et société
+
+-   Colonisation
+
+-   Rapports hommes-femmes
+
+-   Domination, clientélisme
+
+Discours politiques sur la pauvreté, benchmarks.
+
+Défiance sociale et contestation.
+
+Utilisatoin dans la décision : responsabilité individuelle ou collective ?
+
+## Pauvreté et microfinance
+
+Les enjeux des dérives de mission
+
+L'ambiguité des institution: CGAP avec un "P" pour Poorest ou Poor ?
+
+PAT, PPI, PWR, ALS : la guerre des méthodes de mesure de la pauvreté
+
+## Proxy means tests {.smaller}
+
+-   Principe technique: croisement d'enquêtes ménages et d'approches statistiques de scoring
+
+-   Décision du Congrès Américain (Microenterprise for Self-Reliance and International Anti-Corruption Act en 2000 puis Microenterprise Results and Accountability Act en 2004) d'obliger les récipiendaires d'aide US à démontrer qu'ils desservent 50% de pauvres minimum
+
+-   Méthodologies concurrentes :
+
+    -   IRIS (U. du Maryland) développe les PAT
+
+    -   Invention et copyright d'une approche clé-en-main et opérationnelle par Schreiner [-@schreiner2005]
+
+    -   Controverse et rivalité des approches pendant plusieurs années
+
+## Pauvreté et transferts de fonds
+
+Suivi satellitaire [@lee2022]
+
+## Conclusion : Des débats à ne pas sous- ou sur-restimer
+
+Questions complexes: définitions, seuils, méthodes, théories.
+
+Sujette à des innovations et controverses socio-techniques
+
+Questions souvent omises : attention à ne pas les rendre centrales
+
+## References
