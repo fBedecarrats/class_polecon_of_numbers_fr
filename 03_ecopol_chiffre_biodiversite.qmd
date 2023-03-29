@@ -7,12 +7,147 @@ format:
   revealjs:
     self-contained: true
 editor: visual
+bibliography: references.bib
 ---
 
 ## Plan de la séance
 
--   Exposé d'étudiants (20 minutes) + discussion (10 minutes). Article à déterminer : un papier qui mettrait bien en relation (de manière critique) les dynamiques de comptabilité biodiv et les débats sur les paiements pour services environnementaux.
+-   Exposé d'étudiants (20 minutes) + discussion (10 minutes), sur la base de deux articles [@comte2022; @weber2022].
 -   Etat des méthodes : classification de l'usage des sols, modélisations GBIF, ENCA.
 -   Implications : pour la mesure : cf. débats récents sur la prise en compte de la biodiversité par les banques centrales.
--   Focus théorique sur la création de normes : communautés épistémiques (Jasanov) versus entrepreneurs de normes (Finnemore).
+-   Focus théorique sur la création de normes : controverses sociotechniques, communautés épistémiques (Jasanov) versus entrepreneurs de normes (Finnemore).
 
+## Regard sur les sources mobilisées pour les exposés
+
+Deux articles proposés aujourd'hui de types singuliers :
+
+::: incremental
+-   revue systématique : synthèse de la littérature scientifique sur un sujet
+
+-   Economie politique : pas une revue académique au sens classique (pas de comité de lecture et orientée vers le débat citoyen)
+:::
+
+# Définition et mesure
+
+## Définition de la biodiversité
+
+> La variabilité des organismes vivants de toutes origines, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Cela comprend la variation des attributs génétiques, phénotypiques, phylogénétiques et fonctionnels, ainsi que les changements dans l'abondance et la distribution dans le temps et l'espace au sein et entre les espèces, les communautés biologiques et les écosystèmes.
+>
+> Source : [glossaire IPBES](https://www.ipbes.net/fr/node/16257) (2023)
+
+## Critères de biodiversité
+
+-   Des écosystèmes: diversité des milieux de vie à toutes les échelles
+
+-   Des espèces: taxonomies et évolution
+
+-   Génétique: des individus au sein de chaque espèce
+
+## Pourquoi la biodiversité est-elle importante ?
+
+-   Sous-tend la vie et toute activité humaine
+
+-   Valeur culturelle
+
+-   Services écosystémiques : alimentation, santé, eau, culture
+
+-   Dychotomie artificielle entre nature et non-nature
+
+-   Prise en compte croissante par les institutions (comptabilité écosystémique...)
+
+## Services écosystémiques {.smaller}
+
+4 catégories du millenium ecosystem assessment:
+
+::: incremental
+-   Approvisionnement
+
+    -   Biocombustibles, matériaux, médicaments, alimentation.
+
+-   Régulation
+
+    -   Environnement: épuration des eaux, dépollution, effectifs des espèces
+    -   Santé: contrôle des épidémies, biorésistances
+    -   Aléas: séquestration du carbone/climat, atténuation des innondations
+
+-   Socioculturels:
+
+    -   aménités: fonctions esthétiques, spirituelles, récréatives, éducatives...
+
+-   Services de support
+
+    -   Cycles biogéochimiques (eau, carbonne), formation des sols, production primaire (biomasse)
+:::
+
+# Les mesures de la biodiversité
+
+## GBIF : un système d'information basé sur les occurrences
+
+[![Global Biodiversity Information Facility](media/gbif.png)](https://www.gbif.org/)
+
+## UICN red list : un système d'information basé sur les menaces
+
+42 100 / 150 300 espèces référencée comme menacées d'extinctions
+
+::: columns
+::: {.column width="56%"}
+![UICN classification effort](media/UICN_especes.jpg)
+:::
+
+::: {.column width="44%"}
+![UICN classification scheme](media/uicn_classification.png)
+:::
+:::
+
+## Les approches spatiales {.smaller}
+
+-   Modélisation sur les occurrences d'espèces à partir du GBIF
+-   Mesure de la diversité fonctionnelle: Diversité *α* : indice de Shannon (entropie) Diversité *β* : indice de Bray-Curtis (dissimilarité), cf. Féret et de Boissieu [-@féret2020] :
+
+![biodivMapR](media/alpha_beta_maps.png)
+
+-   Métriques paysagères: surfaces, périmètres, formes, coeurs, frontières, complexité...
+
+## Comptabilité environnementale {.smaller}
+
+11 systèmes de comptabilité environnementale [@comte2022]
+
+-   SEEA: valeurs d'échanges
+-   Comptabilités vertes : valeurs de bien-être et épargne véritable
+-   Emergy/exergy
+-   Empreinte environnementale
+-   ...
+
+Approches principalement "instrumentales" : valorisation par les services ou le coût de restauration.
+
+Soutenabilité faible (avec convertibilité) ou forte (sans convertibilité)
+
+# Les concepts théoriques comme des boîtes à outils
+
+## Controverses socio-techniques
+
+-   Débats où des connaissances scientifiques ou techniques non stabilisées compliquent les échanges, brouillent les rôles (savants/profanes, décideurs/spectateurs...) et mêlent les considérations juridiques sociales et morales [@callon2001].
+-   Exemples: OGM, Covid-19, pesticides, mégabassines...
+-   Approches méthodologiques : [Mines](https://controverses.minesparis.psl.eu), [Science po](https://www.sciencespo.fr/fr/actualites/alexandre-violle).
+
+## Communautés épistémiques
+
+Concept par Haas [-@haas1992] : groupes d'experts qui partagent une compréhension commune d'une question particulière et qui sont impliqués dans les processus d'élaboration des politiques liées à cette question.
+
+Notion initialement simpliste [@viltard2006], parfois raffinée [@jasanoff2005].
+
+Appliqué à plusieurs forums internationaux: Non-prolifération nucléaire, santé globale, commerce international, Droits de l'Homme.
+
+Mobilisations sur le climat (GIEC) et biodiversité (IPBES) très étudiées également.
+
+## Entrepreneurs de normes
+
+Normes (ex. conventions de mesure) comme dispositifs de coordination qui façonnent des institutions.
+
+![[@finnemore1998]](media/norm_entrepreneurs.png)
+
+Etude des acteurs en fonction des phases
+
+# Discussion sur l'application de ces concept à la mesure de la biodiversité
+
+## Références

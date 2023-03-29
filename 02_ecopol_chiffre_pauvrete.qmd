@@ -30,13 +30,13 @@ bibliography: references.bib
 
     -   Différences quanti-quali
 
-    -   Points communs; biblio, structure
+    -   Points communs: biblio, structure...
 
 # Comment définit-on la pauvreté ?
 
 ## Définition large, peu technique
 
-> Situation de manque de ressources individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches." (Colombi, 2021)
+> "Situation de manque de ressources individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches." [@colombi2020, p. 21]
 
 -   Commentez
 
@@ -124,7 +124,7 @@ nouvelles méthodes (scores de propension, satellitaires...) Débats sur les imp
 
 ## "Carrière" des résultats
 
-Perception sociale détarminé par les rapports entre Etat et société
+Perception sociale déterminée par les rapports entre Etat et société
 
 -   Colonisation
 
@@ -136,11 +136,17 @@ Discours politiques sur la pauvreté, benchmarks.
 
 Défiance sociale et contestation.
 
-Utilisatoin dans la décision : responsabilité individuelle ou collective ?
+Utilisation dans la décision : responsabilité individuelle ou collective ?
 
 ## Pauvreté et microfinance
 
-Les enjeux des dérives de mission
+Les enjeux des dérives de mission :
+
+-   origine dans des creusets multiples
+
+-   professionnalisation et passage à l'échelle
+
+-   excès, remises en cause et sophistication du suivi social
 
 L'ambiguité des institution: CGAP avec un "P" pour Poorest ou Poor ?
 
@@ -162,14 +168,50 @@ PAT, PPI, PWR, ALS : la guerre des méthodes de mesure de la pauvreté
 
 ## Pauvreté et transferts de fonds
 
-Suivi satellitaire [@lee2022]
+- Dispositif prépondérant des politiques actuelles de lutte contre la pauvreté
+
+- Retour sur l'étude de cas décrite dans Samuel [-@samuel2022]
+
+## Estimation satellitaire de la pauvreté {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Cartes de pauvreté [@lee2022]
+
+Combinent des données :
+
+-   Enquêtes DHS
+-   Satellitaire (VIIRS, Google SM)
+-   Population (HRLS)
+-   OpenStreetMap
+
+Intelligence artificielle (XGBoost et CNN), assez fiable (R2 = 89%)
+
+Enorme potentiel d'utilisation
+
+Risques toutefois : quantification des incertitudes, (més)usages
+:::
+
+::: {.column width="60%"}
+
+![](sources/Poverty_Madagascar.jpg)
+
+:::
+
+:::
 
 ## Conclusion : Des débats à ne pas sous- ou sur-restimer
 
-Questions complexes: définitions, seuils, méthodes, théories.
+-   Un exemple du tryptique qui sous-tend toute mesure :
 
-Sujette à des innovations et controverses socio-techniques
+    -   conventions
+    -   dispositifs techniques
+    -   pouvoirs
 
-Questions souvent omises : attention à ne pas les rendre centrales
+-   Questions complexes: définitions, seuils, méthodes, théories.
+
+-   Sujette à des innovations et controverses socio-techniques
+
+-   Questions souvent omises : attention à ne pas les rendre centrales
 
 ## References
