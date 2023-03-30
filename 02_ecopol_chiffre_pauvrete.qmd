@@ -30,13 +30,21 @@ bibliography: references.bib
 
     -   Différences quanti-quali
 
+<<<<<<< HEAD
     -   Points communs: biblio, structure...
+=======
+    -   Points communs; biblio, structure
+>>>>>>> 7ce1814d805833ad6adb3d726c12bbc4af1fcb05
 
 # Comment définit-on la pauvreté ?
 
 ## Définition large, peu technique
 
+<<<<<<< HEAD
 > "Situation de manque de ressources individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches." [@colombi2020, p. 21]
+=======
+> Situation de manque de ressources individus les plus favorisés qui se traduit notamment par des difficultés à subvenir à ses besoins et à ceux de ses proches, mais aussi par une stigmatisation de la part des personnes plus riches." (Colombi, 2021)
+>>>>>>> 7ce1814d805833ad6adb3d726c12bbc4af1fcb05
 
 -   Commentez
 
@@ -124,7 +132,11 @@ nouvelles méthodes (scores de propension, satellitaires...) Débats sur les imp
 
 ## "Carrière" des résultats
 
+<<<<<<< HEAD
 Perception sociale déterminée par les rapports entre Etat et société
+=======
+Perception sociale détarminé par les rapports entre Etat et société
+>>>>>>> 7ce1814d805833ad6adb3d726c12bbc4af1fcb05
 
 -   Colonisation
 
@@ -136,6 +148,7 @@ Discours politiques sur la pauvreté, benchmarks.
 
 Défiance sociale et contestation.
 
+<<<<<<< HEAD
 Utilisation dans la décision : responsabilité individuelle ou collective ?
 
 ## Pauvreté et microfinance
@@ -147,6 +160,13 @@ Les enjeux des dérives de mission :
 -   professionnalisation et passage à l'échelle
 
 -   excès, remises en cause et sophistication du suivi social
+=======
+Utilisatoin dans la décision : responsabilité individuelle ou collective ?
+
+## Pauvreté et microfinance
+
+Les enjeux des dérives de mission
+>>>>>>> 7ce1814d805833ad6adb3d726c12bbc4af1fcb05
 
 L'ambiguité des institution: CGAP avec un "P" pour Poorest ou Poor ?
 
@@ -168,6 +188,7 @@ PAT, PPI, PWR, ALS : la guerre des méthodes de mesure de la pauvreté
 
 ## Pauvreté et transferts de fonds
 
+<<<<<<< HEAD
 - Dispositif prépondérant des politiques actuelles de lutte contre la pauvreté
 
 - Retour sur l'étude de cas décrite dans Samuel [-@samuel2022]
@@ -213,5 +234,16 @@ Risques toutefois : quantification des incertitudes, (més)usages
 -   Sujette à des innovations et controverses socio-techniques
 
 -   Questions souvent omises : attention à ne pas les rendre centrales
+=======
+Suivi satellitaire [@lee2022]
+
+## Conclusion : Des débats à ne pas sous- ou sur-restimer
+
+Questions complexes: définitions, seuils, méthodes, théories.
+
+Sujette à des innovations et controverses socio-techniques
+
+Questions souvent omises : attention à ne pas les rendre centrales
+>>>>>>> 7ce1814d805833ad6adb3d726c12bbc4af1fcb05
 
 ## References
